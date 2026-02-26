@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CI/CD Demo - Wafaa Harb</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CI/CD with GitHub Actions</h1>
+        
+        <div class="student-info">
+            <h2>Your Name: [Wafaa Ashraf Harb]</h2>
+            <h3>Course: Cloud Computing</h3>
+            <h4>Instructor: Dr. Faten F Abushmmala</h4>
+        </div>
+
+        <div class="section">
+            <h2>What is CI/CD?</h2>
+            <p>CI/CD (Continuous Integration/Continuous Deployment) is a modern software development practice. Continuous Integration automatically builds and tests code changes when developers push to the repository. Continuous Deployment automatically deploys approved changes to production. This automation reduces manual errors and speeds up delivery. It's essential for cloud systems where frequent updates are common. CI/CD ensures reliable and consistent software releases.</p>
+        </div>
+
+        <div class="section">
+            <h2>My Pipeline</h2>
+            <p id="pipeline-desc">When I push code to the main branch, GitHub Actions automatically triggers my workflow. The workflow checks if all required files exist, then deploys my website to GitHub Pages. The entire process takes about 1-2 minutes, and I can see the results in the Actions tab.</p>
+        </div>
+
+        <div class="interactive-section">
+            <h2>Interactive Demo</h2>
+            <button onclick="changeText()" class="demo-btn">Click Me!</button>
+            <p id="demo-text">This text will change when you click the button.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
