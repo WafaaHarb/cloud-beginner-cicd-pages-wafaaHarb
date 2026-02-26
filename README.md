@@ -4,7 +4,7 @@
 This project demonstrates a complete CI/CD pipeline using GitHub Actions to automatically deploy a static website to GitHub Pages.
 
 ## Live Site
-🔗 **GitHub Pages URL:** https://[your-username].github.io/cloud-beginner-cicd-pages-WafaaHarb/
+🔗 **GitHub Pages URL:** https://wafaaharb.github.io/cloud-beginner-cicd-pages-wafaaHarb/
 
 ## Local Development
 To run this site locally:
