@@ -1,4 +1,4 @@
-# Cloud Computing CI/CD Demo - [Your Name]
+# Cloud Computing CI/CD Demo - [wafaa Harb]
 
 ## Project Description
 This project demonstrates a complete CI/CD pipeline using GitHub Actions to automatically deploy a static website to GitHub Pages.
